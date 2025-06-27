@@ -1,0 +1,44 @@
+body{
+  background-color: aquamarine;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  text-align: center;
+}
+.input-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input-container > input{
+  width: 14vw;
+  height: 4vh;
+  margin-bottom: 0.7vh;
+  font-size: 1.5rem;
+}
+.input-container > button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.5vh;
+  gap: 4px;
+}
+.todo{
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 20px;
+}
+.todo > p{
+  margin-right: 65px;
+}
